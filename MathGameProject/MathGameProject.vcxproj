@@ -10,6 +10,18 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h" />
+    <ClInclude Include="Direction.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="io_utils.h" />
+    <ClInclude Include="ISpecificGame.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="io_utils.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{269335DB-B72A-4EF9-90E8-49DFE135E8E5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -77,18 +89,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\2015B-MathGameBaseCode\GameManager.cpp" />
-    <ClCompile Include="..\..\2015B-MathGameBaseCode\io_utils.cpp" />
-    <ClCompile Include="..\..\2015B-MathGameBaseCode\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\2015B-MathGameBaseCode\config.h" />
-    <ClInclude Include="..\..\2015B-MathGameBaseCode\Direction.h" />
-    <ClInclude Include="..\..\2015B-MathGameBaseCode\GameManager.h" />
-    <ClInclude Include="..\..\2015B-MathGameBaseCode\io_utils.h" />
-    <ClInclude Include="..\..\2015B-MathGameBaseCode\ISpecificGame.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
