@@ -78,6 +78,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\2015B-MathGameBaseCode\GameManager.cpp" />
+    <ClCompile Include="..\..\2015B-MathGameBaseCode\io_utils.cpp" />
+    <ClCompile Include="..\..\2015B-MathGameBaseCode\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\2015B-MathGameBaseCode\config.h" />
+    <ClInclude Include="..\..\2015B-MathGameBaseCode\Direction.h" />
+    <ClInclude Include="..\..\2015B-MathGameBaseCode\GameManager.h" />
+    <ClInclude Include="..\..\2015B-MathGameBaseCode\io_utils.h" />
+    <ClInclude Include="..\..\2015B-MathGameBaseCode\ISpecificGame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
