@@ -1,6 +1,8 @@
 #ifndef _SOLUTION_H_
 #define _SOLUTION_H_
 
+using namespace std;
+
 class Solution
 {
 private:

@@ -15,6 +15,7 @@
     <ClInclude Include="config.h" />
     <ClInclude Include="Direction.h" />
     <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Cell.h" />
     <ClInclude Include="io_utils.h" />
     <ClInclude Include="ISpecificGame.h" />
     <ClInclude Include="MathGame.h" />
@@ -28,6 +29,7 @@
     <ClCompile Include="MathGame.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Solution.cpp" />
+    <ClCompile Include="Cell.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{269335DB-B72A-4EF9-90E8-49DFE135E8E5}</ProjectGuid>

@@ -1,5 +1,7 @@
 #include "Player.h"
 
+using namespace std;
+
 void Player::setDirection(char direction)
 {
 	// set the direction for the player to move in

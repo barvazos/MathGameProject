@@ -4,6 +4,8 @@
 #include "ISpecificGame.h"
 #include <list>
 
+using namespace std;
+
 class MathGame : public ISpecificGame {};
 
 #endif
